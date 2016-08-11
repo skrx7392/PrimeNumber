@@ -28,7 +28,6 @@ namespace PrimeNumber
                 goto MainProg;
             Console.WriteLine("Thank you!");
             System.Threading.Thread.Sleep(5000);
-
         }
 
         public static bool CheckPrime(int prime)
