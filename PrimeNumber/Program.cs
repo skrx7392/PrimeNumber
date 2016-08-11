@@ -29,7 +29,12 @@ namespace PrimeNumber
             Console.WriteLine("Thank you!");
             System.Threading.Thread.Sleep(5000);
         }
-
+        
+        /// <summary>
+        /// Function to check if the given number is prime
+        /// </summary>
+        /// <param name="prime">Takes in an integer as input parameter</param>
+        /// <returns>Returns true if prime</returns>
         public static bool CheckPrime(int prime)
         {
             if(prime<2)
